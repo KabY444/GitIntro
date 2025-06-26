@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PageObjectRevision">
+	<test name="Module01">
+		<classes>
+			<class name="Framework.TestCase_POM"></class>
+			<class name="Framework.TestCase_POM_02"></class></classes></test></suite>

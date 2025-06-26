@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PageObjectRevision]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Module01(failed)">
+    <classes>
+      <class name="Framework.TestCase_POM">
+        <methods>
+          <include name="setUp"/>
+          <include name="TC01"/>
+        </methods>
+      </class> <!-- Framework.TestCase_POM -->
+      <class name="Framework.TestCase_POM_02">
+        <methods>
+          <include name="TC02"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Framework.TestCase_POM_02 -->
+    </classes>
+  </test> <!-- Module01(failed) -->
+</suite> <!-- Failed suite [PageObjectRevision] -->
