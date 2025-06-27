@@ -18,11 +18,11 @@ public class HomePage {
 	private @FindBy(xpath = "//input[@name='commit']") WebElement Submit;
 
 	public void email() {
-		Email.sendKeys("Email Text Field");
+		Email.sendKeys("Keys being sent to Email Text Field. ");
 	}
 
 	public void pd() {
-		pwd.sendKeys("password text field");
+		pwd.sendKeys("Keys being sent to password text field");
 	}
 
 	public void enter() {

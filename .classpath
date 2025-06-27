@@ -24,5 +24,34 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/kanis/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar" sourcepath="C:/Users/kanis/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.seleniumhq.selenium"/>
+			<attribute name="maven.artifactId" value="selenium-api"/>
+			<attribute name="maven.version" value="3.141.59"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/kanis/Downloads/selenium-java-3.141.59 (1)/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanis/Downloads/eclipse-java-2021-06-R-win32-x86_64/eclipse/plugins/org.testng_7.4.0.r202105021533.jar" sourcepath="C:/Users/kanis/Downloads/eclipse-java-2021-06-R-win32-x86_64/eclipse/plugins/org.testng.source_7.4.0.r202105021533.jar"/>
+	<classpathentry kind="lib" path="C:/Users/kanis/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8.jar" sourcepath="C:/Users/kanis/.m2/repository/org/codehaus/groovy/groovy/3.0.8/groovy-3.0.8-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.codehaus.groovy"/>
+			<attribute name="maven.artifactId" value="groovy"/>
+			<attribute name="maven.version" value="3.0.8"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/kanis/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar" sourcepath="C:/Users/kanis/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.apache.logging.log4j"/>
+			<attribute name="maven.artifactId" value="log4j-api"/>
+			<attribute name="maven.version" value="2.14.1"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
