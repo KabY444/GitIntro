@@ -32,4 +32,9 @@ public class HomePage {
 		Submit.click();
 
 	}
+	
+	public void m4() {
+		pwd.clear();
+		
+	}
 }

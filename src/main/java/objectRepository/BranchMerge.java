@@ -9,7 +9,13 @@ public class BranchMerge {
 		String s1 = new String("Kanishk");
 		System.out.println(s1);
 		
+		a = "testnew";
+		
+		System.out.println(a);
+		
 		System.out.println("New class added in branch_KB");
+		System.out.println("Updated by Stuff user to KB Branch");
+		
 
 	}
 
