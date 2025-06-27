@@ -8,6 +8,9 @@ import org.openqa.selenium.support.PageFactory;
 public class HomePage {
 	WebDriver driver;
 
+	String notToBeUsed = "";
+
+	
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
@@ -18,14 +21,15 @@ public class HomePage {
 	private @FindBy(xpath = "//input[@name='commit']") WebElement Submit;
 
 	public void email() {
-		Email.sendKeys("Keys being sent to Email Text Field. ");
+		Email.sendKeys("Updated by GitStuff user.");
 	}
 
 	public void pd() {
-		pwd.sendKeys("Keys being sent to password text field");
+		pwd.sendKeys("Updated by GitStuff user.");
 	}
 
 	public void enter() {
 		Submit.click();
+
 	}
 }
